@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps {
+        ; test-lib/test-lib {:local/root "../test-lib"}
+        net.clojars.madis/test-lib {:mvn/version "0.0.1"}
+        org.clojure/clojurescript {:mvn/version "1.11.4"}}}
