@@ -8,15 +8,18 @@ Simple Clojurescript library to demonstrate how
 ### Run tests
 
 1. Node tests
-  - `npx shadow-cljs compile test`
+  - `npx shadow-cljs compile test-node`
   - `node out/node-tests.js`
+  - ![Node tests](/test-lib/docs/images/node-tests.png)
 2. Browser tests
   - `npx shadow-cljs watch test-browser`
   - Open http://d0x-vm:6502 in browser (gets re-compiled & refreshed on each test change)
+  - ![Browser tests](/test-lib/docs/images/browser-tests.png)
 3. CI tests (via Karma)
   - export CHROME_BIN=`which chromium-browser`
   - `npx shadow-cljs compile test-ci`
   - `npx karma start --single-run`
+  - ![CI tests](/test-lib/docs/images/ci-tests.png)
 
 ### Build & release
 
