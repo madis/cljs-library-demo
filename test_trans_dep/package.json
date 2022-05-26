@@ -1,0 +1,9 @@
+{
+  "name": "test_trans_dep",
+  "version": "0.0.1",
+  "description": "Transitive NPM Dependency of CLJS library",
+  "main": "index.js",
+  "repository": "https://github.com/madis/test_trans_dep",
+  "author": "Madis",
+  "license": "MIT"
+}
