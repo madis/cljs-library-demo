@@ -5,4 +5,8 @@
 
 (deftest things-that-should-be
   (testing "simple calculation"
-    (is (= 1764 (tlc/calculate 42)))))
+    (is (= 1764 (tlc/calculate 42))))
+
+  (testing "transitive Node.js dependency"
+    (is (= (js->clj (tlc/answer-from-library "The question") :keywordize-keys true)
+           {:input "The question" :answer 42}))))

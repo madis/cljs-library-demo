@@ -1,5 +1,4 @@
-{
- :dev-http {6502 {:root "out/browser-tests" :host "d0x-vm"}}
+{:dev-http {6502 {:root "out/browser-tests" :host "d0x-vm"}}
  :nrepl {:port 30333}
  :deps true
  :builds
