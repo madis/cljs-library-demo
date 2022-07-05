@@ -1,0 +1,7 @@
+{:deps true
+ :npm-deps {:install true}
+ :builds
+ {:node-script-build
+  {:target :node-script
+   :main test-app.core/-main
+   :output-to "out/node-script-build.js"}}}
